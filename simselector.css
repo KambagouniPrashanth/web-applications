@@ -1,0 +1,22 @@
+/* tag selector */
+h1{
+    border: 2px dashed yellowgreen;
+    color:maroon;
+    margin-left: 20px;
+}
+/* class selector */
+.para{
+    border: 2px solid gainsboro;
+    color: bisque;
+    margin-bottom: 2px solid red;
+}
+/* id selector */
+#para1{
+    border:2% solid rgb(205, 255, 213);
+    color: red;
+    margin-bottom: 2px rgb(179, 0, 255);
+}
+/* universal selector */
+*{
+ text-align: center;
+}

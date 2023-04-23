@@ -1,0 +1,31 @@
+
+/* decendent selector :It affect all the childs of the specified tag */
+
+/* div p{
+    background-color: aqua;
+} */
+/* sibling selector */
+/* div~p{
+    background-color: aqua;
+} */
+/* after the all div tag of p is applied this method to 
+it will reflect changes on the p tag */
+/* p~div{
+    background-color: blue;
+} */
+/* after the all p tag of div is applied this method to 
+it will reflect changes on the div tag */
+
+
+
+/* adjcent sibling selector */
+/* div + p {
+    background-color: yellow;
+  }
+  
+  /* childselector: only applied spcified tag children but not the grand children p tag(i.e below of div not above) */
+
+  div>p{
+    background-color: brown;
+  }
+   

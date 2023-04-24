@@ -25,7 +25,20 @@ it will reflect changes on the div tag */
   
   /* childselector: only applied spcified tag children but not the grand children p tag(i.e below of div not above) */
 
-  div>p{
+  /* div>p{
     background-color: brown;
-  }
+  } */
+
+
+  /* class with id with decendent selectors */
+  /* .div #para{
+    background-color: blue;
+  } */
+
+  /* class with id with child selectors */
+
+  /* .div>#para{
+    background-color: blue;
+  } */
+
    

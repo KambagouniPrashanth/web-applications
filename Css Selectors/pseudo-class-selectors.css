@@ -1,0 +1,38 @@
+a:link{
+    color: pink;
+}
+
+a:active{
+    color:lightgreen;
+}
+
+a:hover{
+    color: lightcoral;
+}
+input:focus{
+    border-color: blueviolet;
+    color: blue;
+}
+.btn{
+    border:1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 50px;
+    width: 10%;
+    font-size: 15px;
+   }
+
+/* button:hover{
+    background-color: white;
+    border:5px solid red;
+    color:blue;
+
+} */
+
+
+button:active{
+    width: 50%;
+}
+.btn:hoover{
+   scale: 2; 
+}

@@ -1,0 +1,46 @@
+.parent{
+    position: relative;
+    height: 200vh;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+}
+.child{
+   padding: 30px;
+}
+/* here first element is for the hight and second size for the width */
+.child-one{
+    position: relative;
+    /* top:300px; */
+    top: -100px;
+    background-color: aqua;
+}
+ /* in here for the for top,left,right,or bottom if we positive go to its opposite side 
+ else if we give it as negative valus go to its position whatever side on same direction */
+
+.child-two{
+    position: relative;
+    left:-30px;
+    background-color:red;
+    
+}
+
+.child-three{
+    position: relative;
+    right:-300px;
+    background-color: yellow;
+}
+
+.child-four{
+    position: relative;
+    bottom:-300px;
+    background-color:green;
+}
+.child-five{
+    position: absolute;
+    top:300px;
+    background-color: aqua;
+}
+.child-a:hover{
+ text-decoration: 1px solid green;
+}

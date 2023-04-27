@@ -1,0 +1,74 @@
+.parent{
+    background-color: orange;
+    padding: 10px;
+}
+.anchor{
+    position: relative;
+    right:-900px;
+    margin-left: 10px;
+}
+.a{
+    color: black;
+}
+a:hover{
+    color:pink;
+}
+
+#body{
+    background-color: black;
+}
+
+/* section-1 */
+.child-img{
+    position: relative;
+    right:-1100px;
+    width:150px;
+    height:180px;
+    margin-left:16px;
+}
+#para{
+    color:white;
+}
+.child-para1{
+    position:relative;
+    left:-2px;
+    
+    
+    right: -20px;
+    top:-200px;
+    
+}
+.child-btn{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 15px20px;
+    
+    
+}
+
+
+
+.table{
+    border-color:orange;
+    color: white;
+    position: relative;
+    right:-300px;
+}
+
+input[type="text"],input[type="email"],input[type="tel"]{
+    margin-bottom: 10px;
+    border: 2px solid orange;
+    border-radius: 200px;
+    background-color: black;
+    color:white;
+    height: 30px;
+    width: 700px;
+    text: size 40%;
+}
+input[type="submit"]{
+    background-color: orange;
+    border-radius: 200px;
+    padding: 10px 80px;
+
+}
+

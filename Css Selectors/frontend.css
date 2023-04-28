@@ -1,4 +1,5 @@
 .parent{
+    position: relative;
     background-color: orange;
     padding: 10px;
 }
@@ -31,11 +32,13 @@ a:hover{
 }
 .child-para1{
     position:relative;
-    left:-2px;
-    
-    
-    right: -20px;
     top:-200px;
+    left:-100px;
+
+   
+    
+    
+   
     
 }
 .child-btn{

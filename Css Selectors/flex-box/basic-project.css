@@ -1,0 +1,54 @@
+ /* navbar section with class navbar and child a start */
+ *{
+  margin: 0px;
+ }
+.navbar{
+
+   position: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding:20px 20px;
+    align-items: center;
+   
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+}
+.navbar a:hover{
+    background-color: brown;
+
+
+}
+
+ /* navbar section start */
+  /* section1 with class container and child left,right start */
+  .container1{
+    width: 100%z;
+    display:flex;
+    justify-content: center;
+    background-color: aqua;
+    
+  }
+  .left{
+   
+    margin-top: 100px;
+  }
+  .right{
+    margin-top: 100px;
+   
+    
+  }
+  .right img{
+    position: relative;
+    right: -200px;
+    width: 50%;
+  }
+

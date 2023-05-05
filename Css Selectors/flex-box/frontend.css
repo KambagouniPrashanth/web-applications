@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0px;
+   }
+
+.navbar{
+    position: fixed;
+   display: flex;
+   width: 100%;
+   background-color:orange;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 10px;
+   border: 1px solid orange;
+   margin: 0px;
+
+}
+.navbar a{
+
+    font-size: 12px;
+   
+     color:black;
+     padding:5px;
+
+   
+}
+.navbar a{
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    border-bottom-style: double;
+
+}
+
+.navbar a{
+
+    font-size: 12px;
+   
+     color:black;
+     padding:5px;
+
+   
+}
+.navbar a{
+    text-decoration: none;
+
+}
+.navbar a:hover{
+    border-bottom: 2px solid blue;
+    /* border-bottom-style: double;
+    color: blue; */
+
+}
+
+/* nav section ending here */
+
+
+
+
+/* section-1 */
+
+.container1{
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   padding: 50px;
+
+   
+}
+ .left{
+    color: white;
+    width: 400px;
+    margin-left: 25px;
+    position: relative;
+    left:-150px;
+
+}
+ .right img{
+    width: 400px;
+}
+
+/* section 3 */
+
+
+
+
+
+
+
+input[type="text"],input[type="email"],input[type="tel"]{
+    margin-bottom: 10px;
+    border: 2px solid orange;
+    border-radius: 200px;
+    background-color: black;
+    color:white;
+    height: 30px;
+    width: 700px;
+    text: size 40%;
+}
+input[type="submit"]{
+    background-color: orange;
+    border-radius: 200px;
+    padding: 10px 80px;
+
+}
+
+
+
+/* section 4 */
+.container4{
+    border-color:orange;
+    color: orange;
+    position: relative;
+    right:-400px;
+    width: 50%;
+}
+.container4 a{
+    color: orange;
+    font-size:10px;
+}
+.container4 a:hover{
+    background-color: blue;
+}
+ .tbfooter{
+    background-color: orange;
+    color: white;
+}
+ .tbfooter a{
+    color: white;
+}

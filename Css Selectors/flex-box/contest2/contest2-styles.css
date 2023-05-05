@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: orange;
+    position: sticky;
+    /* https://www.figma.com/file/X6Svr3cT6BaT8Ki3ArhZ5S/Untitled?node-id=0%3A1&t=cUbyYD30Y9VSAHk9-1 */
+}
+.navbar .logo img{
+    height: 15px;
+
+}
+.nav-items{
+    padding: 0px 78px;
+}
+.navbar .nav-items a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:400px;
+    color: black;
+    padding: 0px 25px;
+}
+.nav-items a:hover{
+    border-bottom: 2px solid yellow;
+}
+
+/* section1 */
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.content{
+    margin-left:20px;
+}
+.content h1{
+/*     width:400px;
+    font-weight: 50px;
+   
+    
+    padding:0px 0px;
+    color: white;
+    margin-top: 20px; */
+    color:white;
+    font-style: normal;
+   font-weight: 600;
+    font-size: 30px;
+    margin-top: 20px; 
+}
+.content p{
+/*     height: 30px;
+    color: white;
+    padding:0px 5px;
+    width:50%;
+    margin-top: 20px; */
+
+    
+   color:white;
+   width:70%;
+    font-style: normal;
+    font-weight: 400;
+   font-size: 15px;
+   line-height: 20px;
+    margin-top:20px;
+}
+.content #btn{
+/*     background-color: orange;
+    padding: 2px 15px;
+    border:2px solid
+    margin-top: 20px; */
+    position: relative;
+   
+/*     height: 50px; */
+    font-weight:bold;
+   
+    padding:15px 80px;
+   
+    top: 15px;
+
+    background: #FCAF02;
+    border-radius: 300px;
+    
+
+}
+.content #btn:hover{
+    color:blue;
+/*     border-radius: 300px ; */
+    border-color:blue;
+    
+}
+.image{
+    margin-right: 100px;
+    
+}
+.image img{
+/*    position: absolute; */
+    position:relative;
+    
+   width: 300px;
+   height: 200px;
+   right:-30px;
+   margin-top:20px;
+   
+    
+}
+
+/* section 2 */
+.form{
+    margin:40px;
+    margin-left:20px;
+    margin-right: 20px;
+    background-color: black;
+    height: 50%;
+ }
+ .form h1{
+     color: white;
+     margin-top: 10px;
+    font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 78px;
+ /* identical to box height */
+ 
+ 
+    color: #FCAF02;
+ 
+ }
+
+ .form .form-control input{
+     
+   
+    border:2px solid #FCAF02;
+    background-color:black;
+     
+    width:90%;
+    padding:5px 1px;
+    border-radius: 100px; 
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom:30px;
+   }
+   
+   .form .form-control-1 input{
+    background-color:black;
+   
+    border:2px solid #FCAF02;
+    padding:5px 1px;
+    width:39%;
+    border-radius: 100px;
+    margin-bottom:10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom:30px;
+    
+  }
+
+.form ::placeholder{
+ color:#FCAF02;
+ padding:20px 30px;
+ 
+}
+#bt{
+    background-color: #FCAF02;
+    border-radius: 100px;
+    padding:10px 100px;
+    font-size: 20px;
+    font-weight: 600;
+    position:relative;
+    left:380px;
+    
+
+}
+
+/* section 3 */
+.table{
+    color: #FCAF02;
+    font-size: 17px;
+    
+    
+      
+    
+}
+td:hover{
+    border-bottom: 2px solid blue;
+}
+table, thead{
+    width: 80%;
+    border: 2px solid #FCAF02;
+    color: #FCAF02;
+}
+
+td, th{
+    border-left: 2px solid #FCAF02;
+}
+
+
+tfoot td{
+    border: 2px solid #000000;
+}
+tr{
+
+    padding: 10px;
+    
+    margin: 0px;
+    
+    border: none;
+ }
+
+table, tr, td, th{
+    padding: 25px;
+    border-collapse: collapse;
+}
+
+tfoot{
+    color: #000000;
+    background-color: #FCAF02;
+    border: 2px solid #000000;
+}

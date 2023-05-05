@@ -1,0 +1,21 @@
+.container{
+    background-color:lightblue;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    /* align-items: end; */
+    /* align-items: start; */
+    align-items: center;
+}
+
+.container .item{
+    background-color: blue;
+    font-size: 20px;
+    width: 20%;
+    color: white;
+    padding:20px;
+    border: 2px solid black;
+    margin: 2px;
+}

@@ -16,6 +16,8 @@
     width: 20%;
     color: white;
     padding:20px;
+    background-image: url(../utils/runninghorse.gif);
+    background-repeat: repeat-y;
     border: 2px solid black;
     margin: 2px;
 }

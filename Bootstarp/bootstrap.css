@@ -1,0 +1,30 @@
+.accordion-item{
+    border: none;
+    
+    width: 80%;
+
+    height: 80%;
+    /* display:flex;
+    align-items: end; */
+   
+
+    margin-left: 60px;
+    margin-bottom: 20px
+
+}
+.accordion-header{
+    box-shadow: rgba(100,100,11,0.2);
+}
+.accordion-button{
+    height: 10vh;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: white;
+}
+
+.accordion-button:focus{
+  box-shadow: white;
+}
+
+

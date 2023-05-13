@@ -1,0 +1,15 @@
+
+/* Your CSS Code here. */
+.container{
+	display:grid;
+    grid-template-columns: repeat(3,20%);
+    gap:10px 20px;
+   
+	
+	
+}
+.item img{
+    border: 2px solid black;
+    width: 200px;
+    
+}

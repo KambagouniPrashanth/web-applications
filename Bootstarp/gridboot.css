@@ -1,0 +1,22 @@
+.d-flex .form-control{
+    padding: .374rem .74rem!important;
+   
+
+}
+.navbar-nav{
+    padding:8px 80px;
+}
+.nav-link{
+    padding:5px 15px;
+}
+.form-control{
+    width: 50%;
+    height: 30px;
+}
+.btn-outline-success{
+ padding:1px 5px;
+}
+.btn-outline-success:hover{
+    background-color: blueviolet;
+
+}

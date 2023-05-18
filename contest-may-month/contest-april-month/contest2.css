@@ -24,12 +24,10 @@
     background-color: whitesmoke;
 }
 
-.footer-wrapper{
-    display: flex;
-   
-}
+
 .footer-wrapper a{
     text-decoration: none;
+    color: black;
     
 }
 .footer .btn-inlast{

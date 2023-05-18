@@ -98,7 +98,7 @@ input[type="text"],input[type="email"],input[type="tel"]{
     color:white;
     height: 30px;
     width: 700px;
-    text: size 40%;
+    font-size: 15px;
 }
 input[type="submit"]{
     background-color: orange;
@@ -110,13 +110,27 @@ input[type="submit"]{
 
 
 /* section 4 */
-.container4{
+/* .container4{
     border-color:orange;
     color: orange;
     position: relative;
     right:-400px;
     width: 50%;
+} */
+
+table,thead{
+    margin:20px;
+    width: 80%;
+    color:orange;
+    border: 2px solid orange;
+    
 }
+table,  tbody, th ,td{
+    padding: 25px;
+    border: 2px solid orange;
+    border-collapse: collapse;
+}
+
 .container4 a{
     color: orange;
     font-size:10px;

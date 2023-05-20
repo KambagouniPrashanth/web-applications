@@ -125,10 +125,18 @@ table,thead{
     border: 2px solid orange;
     
 }
-table,  tbody, th ,td{
+table,thead{
     padding: 25px;
     border: 2px solid orange;
     border-collapse: collapse;
+
+}
+th,td{
+    border-left: 2px solid orange;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+  
 }
 
 .container4 a{

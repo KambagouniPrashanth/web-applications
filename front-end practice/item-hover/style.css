@@ -1,0 +1,17 @@
+p{
+    padding: 4px 4px;
+    position: relative;
+   left:482px;
+    
+    font-size: 25px;
+    font-weight: 300;
+    width: 8%;
+}
+p:hover{
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color:purple;
+    text-decoration: purple underline;
+    /* border-bottom: 2px solid purple; */
+}

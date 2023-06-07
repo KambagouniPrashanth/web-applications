@@ -1,5 +1,5 @@
 *{
-    font-family: 'Ruda',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     margin: 0px;
     padding: 0px;
     
@@ -53,45 +53,61 @@
 
   /* main section */
 .main{
-    margin-top: 30px;
+    padding: 10px 10px;
     background-color: black;
-    width: 93%;
+    width: 99%;
+   
 }
 
-.main-content .pizza-image img{
-    width: 80%;
+.main-content {
+    width: 90%;
+    height: 154vh;
     margin-top: 90px;
-    position: relative;
-    left:30px;
+    /* position: relative;
+    left: 30px; */
+    /* background-attachment: fixed; */
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 3.5;
+    opacity: 5.7px;
 }
-.main-content .pizza-specify #title{
-    width: 40%;
-    font-size: 60px;
+.main-content .pizza-specify{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+ .pizza-specify .title{
+    margin-top: 40px;
+    width: 35%;
+    font-size: 2.5rem;
     word-break: break-word;
-    position: relative;
-    top:-525px;
-    margin-left: 125px;
+   
+    
+    
     color: white;
     border-bottom: 3px solid #F24C4C;
     
 }
-.main-content .pizza-specify #para{
+.main-content .pizza-specify .details{
 
     margin-top: 20px;
-    width: 35%;
-    font-size: 15px;
+    width: 58%;
+    font-size: 0.9rem;
+    color:white;
     word-break: break-word;
-    position: relative;
-    top:-552px;
-    margin-left: 125px;
+    
     color: white;
 
-}
+} */
 
  /* about section */
 .about_usheading{
-    position: relative;
-    top:-157px;
+    margin-top: 26px;
+    
 }
 .about_usheading h1{
     font-size: 30px;
@@ -108,132 +124,140 @@
 }
 .about-us{
     display: flex;
-    justify-content: space-between;
+    align-items: start;
+    
+    
     color: white;
    
 
 }
 
-.about-us #para{
-    color:white;
+.about-item #para{
     width: 60%;
-    font-size: 15px;
-    margin-left: 125px;
+    word-break: break-word;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
 }
-.about-us img{
+
+.about-item img{
+    width: 99%;
     
-    width: 400px;
-    height: 200px;
-    margin-right: 125px;
+    /* width: 400px;
+    height: 200px; */
+    /* margin-right: 125px; */
 
 }
 
 /* menu section */
 .menu-heading{
-    position: relative;
+    /* position: relative;
     top:10px;
     left:216px;
-    
+     */
 }
 .menu-heading h1{
     color: white;
-    width:10%;
+    /* width:10%; */
+    text-align: center;
     padding:9px 119px;
-    border-bottom: 2px solid #F24C4C;
-    margin-bottom: 30px;
-    margin-left: 497px;
-    position: relative;
-    top:-147px;
-    left:-267px;
+    text-decoration:  #F24C4C underline;
     
+    margin-bottom: 30px;
+   
+  
 
 }
 .menu{
     display: grid;
-    grid-template-columns: repeat(2,326px);
-    grid-template-rows: repeat(3,107px);
-    gap:10px;
-    position: relative;
-    top:-97px;
-    left:108px;
+    grid-template-columns: repeat(2,38%);
+    column-gap: 149px;
+    row-gap: 10px;
+   
     
 }
-.container .menu-item{
+.container {
     display: flex;
+    
     gap:4px;
     color: white;
 }
-.menu-item .item img{
-    width: 100px;
-    height: 100px;
+.container .item img{
+    width: 93%;
+   
 }
 
-.menu-item .item p{
-    width:40%;
-    font-size: 10px;
+ .item-text p{
+    width: 149%;
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+    word-break: break-word
 
 }
-.menu-item .item h5{
-    margin-bottom: 5px;
+ .item-text h5{
+    
     color:orange;
 }
 
 /* section4 */
 .findus-heading{
-    position: relative;
-    top:84px;
-    left:216px;
+  
+    margin-top: 20px;
 
 }
 .findus-heading h1{
-    border-bottom: 2px solid #F24C4C;
+    text-align: center;
     color: white;
-    width:10%;
+    /* width:10%; */
     padding:9px 119px;
-    border-bottom: 2px solid #F24C4C;
-    margin-bottom: 30px;
-    margin-left: 497px;
-    position: relative;
-    top:-147px;
-    left:-267px;
+    text-decoration: #F24C4C underline;
+   
+   
 }
 .find{
     display: flex;
-    gap:10px;
+    gap: 0.5rem;
     color: white;
-    position: relative;
-    top: -115px;
-    left: -69px;
+    
 }
-.find .find-location1 p{
-    width: 60%;
-    font-size: 15px;
-    font-weight: 100px;
-    position: relative;
-    left:65px;
+.find-location1{
+    display: flex;
+    flex-direction: column;
+}
+.find .find-location1 p {
+    width: 72%;
+    font-size: 0.9rem;
+    margin: 25px;
+    line-height: 1.5rem;
+}
 
-}
-.find-location1 #ovel3{
-    position: relative;
-    top: -26px;
-    left: -31px;
- 
- }
+
 
 .find-location1 .location{
     display: inline-block;
 }
-.find-location1 .location span{
-    position: relative;
-    top:-25px;
-    left:30px
+
+
+
+.find .find-location2 iframe{
+    width: 120%;
+    height: 90vh;
+}
+  
+
+.location-2{
+    display: flex;
+}
+.location-1{
+    display: flex;
+}
+.location1-text{
+    margin-top: 16px;
+    font-size: 1.0rem;
 }
 
-
-.find .find-location2 img{
-   width: 400px;
-   position: relative;
-   right:300px;
+.location-2-text{
+    margin-top: 16px;
+    font-size: 1.0rem;
 }
 
 .footer{
@@ -241,7 +265,7 @@
     justify-content: space-around;
     background-color: black;
     color: white;
-    width: 93%;
+    width: 99%;
     border-top: 60px solid black;
 }
 .footer-item .item img{
@@ -258,7 +282,7 @@
 
 @media screen and (min-width:576px) and (max-width:768px){
     .nav-bar{
-        gap:9px;
+        gap:10px;
     }
     .main{
         width:225%;
@@ -270,5 +294,8 @@
     }
     .find .find-location2 img{
       width:300px;
+    }
+    .footer{
+        width: 228%;
     }
 }

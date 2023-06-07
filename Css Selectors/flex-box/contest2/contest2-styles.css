@@ -58,21 +58,15 @@ body{
     font-size: 30px;
     margin-top: 20px; 
 }
-.content p{
-/*     height: 30px;
+.content p {
     color: white;
-    padding:0px 5px;
-    width:50%;
-    margin-top: 20px; */
-
-    
-   color:white;
-   width:70%;
+    width: 80%;
     font-style: normal;
     font-weight: 400;
-   font-size: 15px;
-   line-height: 20px;
-    margin-top:20px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    word-break: break-word;
 }
 .content #btn{
 /*     background-color: orange;
@@ -181,6 +175,10 @@ body{
     
 
 }
+.container4{
+    position: relative;
+    left: 101px;
+}
 
 /* section 3 */
 .table{
@@ -218,7 +216,7 @@ tr{
  }
 
 table, tr, td, th{
-    padding: 25px;
+    padding: 26px 55px;
     border-collapse: collapse;
 }
 

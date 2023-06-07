@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    justify-content: space-around;
+    background-color: rgb(105,105,105);
+}
+.container div{
+    padding: 4px 4px;
+    font-size: 30px;
+    color: white;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.container div:hover{
+    cursor: pointer;
+    background-color:rgb(0, 0,0) ;
+    /* text-decoration: white underline; */
+}
+.dropdown{
+    /* float: left; */
+    /* overflow: hidden; */
+  }
+.dropdown-btn{
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4px 2px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; 
+}
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    color:white;
+    background-color: rgb(105,105,105);
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+
+    
+  }
+
+  .dropdown-content .item a{
+    /* padding:1px 10px; */
+    text-decoration: none;
+    font-size: 25px;
+   
+  }
+
+  .dropdown-content .item:hover{
+         /* padding:2px 15px; */
+         cursor: pointer;
+         background-color: rgb(105,105,105);
+  }
+
+  
+
+  

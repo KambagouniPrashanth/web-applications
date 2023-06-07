@@ -1,3 +1,6 @@
+.nav-item{
+    padding:2px 32px;
+}
 .carousel-item img{
     height: 100vh;
     
@@ -21,17 +24,23 @@
 }
 
 .footer{
-    background-color: whitesmoke;
+    background: rgba(0, 128, 0, 0.3); /* Green background with 30% opacity */
+    opacity:30%;
 }
 
 
 .footer-wrapper a{
-    text-decoration: none;
-    color: black;
+    /* text-decoration: none;
+    color: black; */
     
+}
+.footer-wrapper .row{
+    justify-content: space-evenly;
 }
 .footer .btn-inlast{
     display: flex;
+    justify-content: space-around;
+    
     gap:700px;
 
 }
@@ -50,5 +59,14 @@
     .image-wrapper .container{
         width: 50%;
     }
+    .footer .btn-inlast{
+        gap:20px;
+    }
     
+    footer .btn-inlast{
+        /* display: flex; */
+        
+        gap:10px;
+    
+    }
 }

@@ -31,7 +31,7 @@
  /* navbar section start */
   /* section1 with class container and child left,right start */
   .container1{
-    width: 100%z;
+    width: 100%;
     display:flex;
     justify-content: center;
     background-color: aqua;

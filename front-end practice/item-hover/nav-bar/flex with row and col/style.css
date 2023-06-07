@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    gap:10px;
+    
+    /* justify-content: space-evenly; */
+    /* gap:20px; */
+    
+}
+/* incase of u want to separate col and row gap do uncommit bottom code */
+.row{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.col img{
+    width: 300px;
+    height: 300px;
+}

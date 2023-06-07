@@ -29,6 +29,7 @@
 	// 	console.log(a);
 	// }
 	// f();
+	// console.log(a);
 
 
 
@@ -41,12 +42,13 @@
 
 
 
-	const a = 10;
-	function f() {
-		a = 9
-		console.log(a)
-	}
-	f();
+const a = 10;
+function f() {
+    // a = 9
+    console.log(a)
+    document.writeln(a)
+}
+f();
 
 
 
